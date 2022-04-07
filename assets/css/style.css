@@ -1,3 +1,27 @@
 body{
     background-color:honeydew ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
+.container{
+    width: 900px;
+    margin: 0 auto;
+}
+
+.cards{
+    display: flex;
+    align-items: center;
+    width: 900px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    column-gap: 50px;
+    row-gap: 30px;
+    
+    
+}
+
+.card{
+    width: 250px;
+ 
+}
+

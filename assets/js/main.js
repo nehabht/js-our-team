@@ -31,10 +31,22 @@ const team = [
     },
 ];
 
-for (let index = 0; index < team.length; index++) {
-    const teamMember = team[index];
+
+let cards = document.querySelector(".cards")
+
+for (let i = 0; i < team.length; i++) {
+    const teamMember = team[i];
+    console.log(team.length)
+    
+    let card= "<div class='card'> <div>"+ teamMember.image +"</div> <h2> "+ teamMember.name +"</h2> <h4>"+ teamMember.role+ "</h4></div>"
+    cards.innerHTML += card
+    
 
     console.log(teamMember.name);
     console.log(teamMember.role);
     console.log(teamMember.image)
 }
+
+
+//stampare name,role e image stringa in dom
+
