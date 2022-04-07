@@ -1,13 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body{
     background-color:honeydew ;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.container{
-    width: 900px;
-    margin: 0 auto;
+.title{
+    background-color: black;
+    color: white;
+    height: 150px;
+    margin-bottom: 50px;
 }
 
+h1{
+    padding-top: 50px;
+    text-align: center;
+}
+
+/* cards */
 .cards{
     display: flex;
     align-items: center;
@@ -22,6 +36,7 @@ body{
 
 .card{
     width: 250px;
+
  
 }
 
