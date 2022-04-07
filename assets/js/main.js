@@ -37,8 +37,9 @@ let cards = document.querySelector(".cards")
 for (let i = 0; i < team.length; i++) {
     const teamMember = team[i];
     console.log(team.length)
-    
-    let card= "<div class='card'> <div>"+ teamMember.image +"</div> <h2> "+ teamMember.name +"</h2> <h4>"+ teamMember.role+ "</h4></div>"
+
+    //stampare name,role e image stringa in dom
+    let card= "<div class='card'> <div> <img src='./assets/img/" + teamMember.image + "'> </div> <h3> "+ teamMember.name +"</h3> <h5>"+ teamMember.role+ "</h5></div>"
     cards.innerHTML += card
     
 
@@ -47,6 +48,4 @@ for (let i = 0; i < team.length; i++) {
     console.log(teamMember.image)
 }
 
-
-//stampare name,role e image stringa in dom
 
